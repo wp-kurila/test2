@@ -3,6 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 import Header from './Header';
 import ServiceList from './ServiceList';
 import ServiceDetails from './ServiceDetails';
+import ErrorPage from './ErrorPage';
 
 const App = () => {
 
@@ -17,6 +18,9 @@ const App = () => {
                 <Route
                     path='/:id/details'
                     component={ServiceDetails} />
+                <Route
+                    path='*'
+                    component={ErrorPage} />
             </Switch>            
         </div>        
     )
