@@ -1,0 +1,21 @@
+.error {
+    width: 20%;
+    background: #f8d6da;
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    padding: 20px;
+}
+
+.error span {
+    color: #9c474f;
+    margin: 10px;
+}
+
+.error button {
+    background: #333a40;
+    color: #ffffff;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
